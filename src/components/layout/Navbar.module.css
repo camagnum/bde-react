@@ -1,0 +1,36 @@
+.navbar {
+    background-image: linear-gradient(30deg,#FEE825 0%,#47D244 70%);
+    color: #005;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: sticky;
+}
+
+.nav_title {
+    font-size: 1.8rem;
+    padding: 0 0 0 10px;
+}
+
+.nav_list {
+    width: 35%;
+    display: flex;
+    padding: 12px 10px;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+.nav_item {
+    color: #005;
+    padding: 12px 10px;
+    border-left: 1px solid #005;
+}
+
+.nav_list :last-child .nav_item {
+    border-right: 1px solid #005;
+}
+
+.nav-item:hover{
+    color: white;
+}
